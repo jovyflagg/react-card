@@ -7,6 +7,7 @@ function Card(props) {
       <div className="link-card">
         <img src={props.image} className="img-card"/>
         <h3>{props.title}</h3>
+        <p>{props.note}</p>
       </div>
     </div>
   );
