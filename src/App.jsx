@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <div className="profile">
         <img src={profilepic} />
-        <h1>Viva La Jovy</h1>
-        <p>Hi Fam! I linked everything in my feed and all my favorites and latest
+        <h1>Jane Smith</h1>
+        <p>Hi Friends! I linked everything in my feed and all my favorites and latest
         here. Happy scrolling!</p>
         </div>
       
