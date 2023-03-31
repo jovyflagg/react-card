@@ -1,10 +1,13 @@
 import profilepic from "./images/profilepic.jpg";
 import LinkInBio from "./components/LinkInBio";
 import Style from "./style.css";
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <div className="profile">
         <img src={profilepic} />
         <h1>Jane Smith</h1>
@@ -13,6 +16,7 @@ function App() {
         </div>
       
       <LinkInBio />
+      <Footer />
     </div>
   );
 }
